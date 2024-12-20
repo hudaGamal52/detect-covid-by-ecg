@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+h1 {
+  text-align: center;
+  color: #f5d0ba;
+  margin-bottom: 50px;
+}
+
+.comments {
+  margin-bottom: 20px;
+}
+
+.comment {
+  background-color: #333;
+  border: 2px solid #f5d0ba;
+  border-radius: 10px;
+  color: #f5d0ba;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: large;
+}
+
+#commentForm div div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  color: #f5d0ba;
+  font-size: larger;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+textarea {
+  width: 50%;
+  height: 100px;
+}
+
+/* .rating input[type="radio"]:checked~label:before {
+  color: yellow;
+}
+
+*/
+/* #nameInput,
+#emailInput,
+#commentInput {
+  width: 100%;
+  margin-bottom: 10px;
+  color: rgb(15, 15, 15)82;
+  padding: 5px;
+  border: 2px solid #658f82;
+  border-radius: 5px;
+  background-color: #658f82;
+}
+
+*/
+/* .rating {
+  margin-bottom: 10px;
+
+} */
+
+button {
+  padding: 10px 20px;
+  background-color: #f5d0ba;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
